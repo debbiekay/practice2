@@ -85,21 +85,20 @@ span{
     }
 
     .ti{
-        width: 100%; 
+        width: 80%; 
         flex-direction: column-reverse; justify-content:flex-end;
-        padding: 0px;
-        margin: 0px;
+        padding: 20px;
+        margin: 20px;
         vertical-align: top;
-    
-
+        align-items: center;
     }
 
     .i{
-        background-color: hsl(277, 64%, 61%)
+        background-color: hsl(277, 94%, 51%)
         ;
         opacity: 0.5;
         width: 100%;
-        border-radius: 10px 10px 0px 0px;
+        border-radius: 20px 20px 0px 0px;
     }
 
     img{
@@ -112,6 +111,13 @@ span{
             text-align: center;
             flex-direction: column;
             padding: 0px;
+    }
+    .tn p{
+        font-size: 17px;
+    }
+
+    .tn h2{
+        font-size: 25px;
     }
 
     .hp{
@@ -129,7 +135,7 @@ span{
     
 p{
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Lexend Deca', sans-serif;
 }
 
